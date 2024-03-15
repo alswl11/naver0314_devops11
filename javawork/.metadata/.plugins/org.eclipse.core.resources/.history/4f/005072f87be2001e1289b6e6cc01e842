@@ -21,7 +21,7 @@ public class Ex3_Output {
 		// 변환기호를 이용해서 출력
 		// 정수 : %d, 실수 : %f, 문자 :%c, 문자열 : %s
 		System.out.printf("**%40s**\n\n", msg); //우측으로 40칸 밀려서 출력
-		System.out.printf("**%-40s**\n\n", msg); //좌측으로 40칸 밀려서 출력
+		System.out.printf("**%-40s**\n\n", msg);
 		System.out.printf("**%s**\n", msg);
 		System.out.printf("날짜 : %d-%d-%d\n", year, month, day);
 		System.out.printf("날짜 : %2d-%2d-%2d\n", year, month, day); // 2자리로 맞추되 2자리가 안되면 그냥 공백 출력 
