@@ -9,7 +9,7 @@ public class Ex3_Output {
 		int month = 3;
 		int day = 5;
 		
-		String msg = "Have a Nice day!!";
+		String msg = "Have a Nice Day!!";
 		char blood = 'B';
 		double avg = 97.4567;
 		

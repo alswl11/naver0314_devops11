@@ -1,0 +1,20 @@
+package day0315;
+
+public class Ex10_Operater {
+
+	public static void main(String[] args) {
+		// 증감연산자 
+		// 전치일경우, 1순위  후치일경우, 2순위
+		// 단 단항일경우는 상관없음 
+		
+		
+		int m = 5, n = 5;
+		m++;
+		++n;
+		System.out.println("m = "+m);
+		System.out.println("n = "+n);
+		
+		
+		
+	}
+}
