@@ -32,7 +32,7 @@ public class Ex12_Munje {
 			  score>70? "조금 더 노력하세요!" :
 				  "재시험입니다!";
 			  
-		System.out.println("score : " + score+"\nmsg : " +msg );
+		System.out.println("score : " + score+"\n msg : " +msg );
 		
 		
 		

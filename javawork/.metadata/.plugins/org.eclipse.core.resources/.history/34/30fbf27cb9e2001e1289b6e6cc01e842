@@ -16,7 +16,7 @@ public class Ex6_Scanner {
 		eng = sc.nextInt();
 //		System.out.println("이름은?");
 //		name = sc.nextLine();
-//		정수 다음 문자 ->오류 발생함 why? 점수 뒤의 엔터를 읽어서 버퍼에 넣음, 엔터가 버퍼에 저장되어 있는 상태 
+//		정수 다음 문자 ->오류 발생함 why? 점수 뒤의 엔터를 읽어서 버퍼에 넣음, 엔터가 퍼에 저장되어 있는 상태 
 //		버퍼의 엔터를 읽어서 소멸시키면 됨	
 		sc.nextLine();
 		System.out.println("이름은?");

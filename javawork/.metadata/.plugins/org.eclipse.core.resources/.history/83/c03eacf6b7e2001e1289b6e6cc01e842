@@ -23,7 +23,7 @@ public class Ex10_Operater {
 		
 		a+=m++; //a = a+m, m = m+1 후치는 제일 마지막에 계산됨  
 		System.out.println("a = " +a); //16
-		System.out.println("m = " +m); //7
+		System.out.println("m = " +m); //5
 		
 		b+= ++n;; // n = n+1, b = b+1, 먼저 증가 후 b에 더해진다 
 		System.out.println("b = " +b); //17
