@@ -1,0 +1,28 @@
+package day0319;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class Ex10_DateNumberFormat {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		// 현재 날짜를 문자열로 출력하기 
+
+		Date date = new Date();
+
+		SimpleDateFormat sdf1 = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss EEE"); // HH : 24시간 
+		System.out.println(sdf1.format(date)); //2024-03-19 16:33:33 화
+
+
+
+		SimpleDateFormat sdf2 = new SimpleDateFormat("yyyy-MM-dd a hh:mm:ss EEEE"); // a : 오전,오후 hh : 12시간 
+		System.out.println(sdf2.format(date)); // 2024-03-19 오후 04:33:33 화요일
+		
+		SimpleDateFormat sdf3 = new SimpleDateFormat("yyyy년 MM월 dd일 HH시 mm분 ss초 EEEE"); 
+		System.out.println(sdf3.format(date)); // 2024-03-19 오후 04:33:33 화요일
+
+	}
+
+}

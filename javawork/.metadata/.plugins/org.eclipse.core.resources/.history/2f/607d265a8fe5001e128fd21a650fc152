@@ -1,0 +1,23 @@
+package day0319;
+
+public class Ex2_Munje {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// 팩토리얼 문제  
+		
+		int fac = 0;
+		
+		for(int i = 2; i<=10; i++) {
+			if(i == 1) {
+				fac = 1;
+			}
+			fac = i*(i-1);
+			System.out.println(fac);
+
+		}
+//		System.out.println(fac);
+	}
+
+}

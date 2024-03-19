@@ -1,0 +1,62 @@
+package day0319;
+
+public class Ex8_String {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.println("** Sting 객체의 Method 공부하기 **");
+		String str1 = "Have a Nice Day";
+		String str2 = "apple";
+		String str3 = "Apple";
+		
+		System.out.println(str1.charAt(7)); // output : N
+		System.out.println(str1.charAt(0)); // output : H
+		System.out.println(str1.indexOf('a')); // output : 1
+		System.out.println(str1.indexOf('S')); // output : -1 (없을 경우 -1이 나옴) 
+		System.out.println(str1.lastIndexOf('a')); // 마지막 'a'의 위치 : 13
+		System.out.println(str1.length()); // str1의 총 길이 : 15
+		
+		
+		System.out.println(str2.concat("***")); // str2문자에 *** 추가해서 반환, concat : 추가할 때 사
+		System.out.println(str2 +"***"); // 위와 동일 
+		
+		System.out.println(str1.toLowerCase()); // 모두 소문자로 변환해서 반환 
+		System.out.println(str1.toUpperCase()); // 모두 대문자로 변환해서 변환 
+		
+		// 문자열 비교시 (값으로 비교시 equal 사용) 
+		System.out.println("apple".equals(str2)); // true
+		System.out.println("apple".equals(str3)); // false, 대소문자 구분함!
+		System.out.println(str2.equals(str3)); // false, 대소문자 구분함! 
+		System.out.println(str2.equalsIgnoreCase(str3)); // true, 대소문자 구분 안함!
+		System.out.println(str2 == str3); // 주소를 비교함, 주소다 다르므로 false(==동등연산자는 기본값비교시에만 사용)
+		
+		// 문자열 추출 
+		System.out.println(str1.substring(7)); // 7번인덱스부터 끝까지 추출함 
+		System.out.println(str1.substring(7,10)); // 7부터 9까지 추출 
+		
+		// 문자열 비교  
+		System.out.println(str1.startsWith("Have")); // Have로 시작하면 true, 대소문자 구분함 
+		System.out.println(str1.startsWith("Nice")); // false
+		
+		System.out.println(str1.endsWith("Day")); // Day로 끝나면 true, 대소문자 구분함 
+		System.out.println(str1.endsWith("Nice"));
+		System.out.println(str1.toLowerCase().endsWith("day"));
+		
+		// compareTo로 비교 
+		System.out.println("apple".compareTo("append")); // output : 'l', 'e' : 7(양수 : 첫 문장이 더 크다) 
+		System.out.println("apple".compareTo("banana")); // output : 'a', 'b' : -1
+		System.out.println("apple".compareTo("apple"));
+		
+		// 반복 
+		System.out.println(str2.repeat(3));
+		System.out.println("*".repeat(10));
+		
+		// 변경 
+		System.out.println(str1.replace('a', '*')); // 일부변경 
+		System.out.println(str1.replace("Nice", "Good"));
+		
+		
+	}
+
+}
