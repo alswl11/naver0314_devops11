@@ -1,0 +1,13 @@
+package day0320;
+
+public class Ex8_ArraySearchNum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int [] data = {12, 4,37, 982, 3, -43, 34, 22};
+		System.out.println(data.length);
+
+	}
+
+}
