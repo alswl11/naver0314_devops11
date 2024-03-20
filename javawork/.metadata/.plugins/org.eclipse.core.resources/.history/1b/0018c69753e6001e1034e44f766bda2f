@@ -1,0 +1,19 @@
+package day0320;
+
+public class Ex1_MathRandom {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// static : 생성하지않고 바로 불러올 수 있음  
+		
+		System.out.println("** Math.random()을 이용한 난수 구하기 **");
+		for(int i = 1; i<=5; i++) {
+			double d = Math.random(); // 0.0 <= d < 1.0은 난수 발생, 0은 발생하지만 1은 발생되지 않음 
+			System.out.println(d); 
+			System.out.println(d*10);
+		}
+
+	}
+
+}

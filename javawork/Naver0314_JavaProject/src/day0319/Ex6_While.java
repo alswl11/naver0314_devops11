@@ -19,7 +19,7 @@ public class Ex6_While {
 
 		// 1. 
 		int a = 1;
-		while(a<=10) { //9까지만 출력됨 
+		while(a<=10) { //10까지만 출력됨 
 			System.out.printf("%3d", a++);
 		}
 		System.out.println();

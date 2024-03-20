@@ -1,0 +1,13 @@
+package day0320;
+
+public class Ex7_Array {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int [] data = {23, 100, 24, -4, 41, 60, 1, 307, 60, -52};
+		System.out.println(data.length);
+
+	}
+
+}
