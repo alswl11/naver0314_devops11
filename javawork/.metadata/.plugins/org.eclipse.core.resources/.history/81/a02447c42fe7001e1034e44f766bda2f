@@ -1,0 +1,49 @@
+package day0321;
+
+import java.util.Scanner;
+
+public class Ex6_ArrayLotto {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/*
+		 *  money를 입력하면 해당 횟수만큼 로또 구하기 
+		 *  로또 : 1~45까지의 중복되지 않은 숫자 , 1000원에 1
+		 *  
+		 *  로또 금액 입력 : 800
+		 *  	금액이 부족합니다 
+		 *  로또 금액 입력 : 0
+		 *  	종료합니다(while문 종료)
+		 *  로또 금액 입력 : 3000
+		 *  	
+		 *  	1회 : 4 5 1 4 2 55 
+		 * 		2회 : 
+		 * 		3회 : 
+		 */
+
+		Scanner sc = new Scanner(System.in);
+		
+		int [] lotto = new int[6];
+		int money;
+		
+		System.out.print("로또 금액 입력 : ");
+		money = sc.nextInt();
+		
+		Lotto : 
+		for(int i = 0; i<=money/1000; i++) {
+			if(money < 1000) {
+				System.out.println("금액이 부족합니다 ");
+				continue Lotto;
+			}
+
+			int num = (int)(Math.random()*45)+1;
+			System.out.println(num);
+		}
+	}
+
+}
+
+//for(int i = 0; i<rand.length; i++) {
+//	int n = (int)(Math.random()*30)+1;
+//	rand[i] = n;
