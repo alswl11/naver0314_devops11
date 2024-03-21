@@ -1,0 +1,71 @@
+package day0321;
+
+import java.util.Scanner;
+
+public class Book199_9 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// 학생들 점수 분석하는 프로그램 
+		// 학생수, 각 점수를 입력 받고 while문 이용 
+		// 최고 점수 및 평균 점수를 출력해라 
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int stuNum;
+		int avg, choice;
+		int score;
+//		int score [];
+		String name;
+		
+		
+		while(true) {			
+			System.out.println("=".repeat(45));
+			System.out.println("1.학생수  2.점수입력  3.점수리스트  4.분석  5.종료");
+			System.out.println("=".repeat(45));
+			
+			System.out.print("선택 > ");
+			choice = sc.nextInt(); 
+			
+			switch(choice ) {
+			case  1 :
+				System.out.print("학생수 > ");
+				stuNum = sc.nextInt();
+				int [] num = new int[stuNum];
+				System.out.println(num.length);
+			
+			case 2 : 
+				for(int i = 0; i<=stuNum; i++) {
+					System.out.printf("score[%d] > ", i);
+					score = sc.nextInt();
+				}
+				
+//			if(choice == 5) {
+//				System.out.println("종료");
+//				break;
+//			}
+//			if(choice == 1) {
+//				System.out.print("학생수 > ");
+//				stuNum = sc.nextInt();
+//			}
+//			if(choice == 2) {
+//				for(int i = 0; i<=stuNum; i++) {
+//					System.out.printf("score[%d] > ", i);
+//					score = sc.nextInt();
+//					//System.out.println(score);
+//				}
+//
+//			}
+		}
+
+
+	}
+
+}
+
+//for(int i = 0; i<arr.length; i++) {
+//	for(int j = 0; j < arr[i].length; j++) {
+//		arr[i][j] = (int)(Math.random()*3)+1;
+//	}
+//}

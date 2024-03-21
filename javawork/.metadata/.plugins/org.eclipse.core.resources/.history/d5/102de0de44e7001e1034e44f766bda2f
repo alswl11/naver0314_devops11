@@ -1,0 +1,12 @@
+package day0321;
+
+public class Ex9_Array2ChaBinggo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int arr [][] = new int [3][3];
+		int bingogo;
+	}
+
+}

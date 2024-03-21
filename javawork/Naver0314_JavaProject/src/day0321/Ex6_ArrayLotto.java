@@ -65,7 +65,7 @@ public class Ex6_ArrayLotto {
 						}
 					}
 				}
-				
+
 				System.out.printf("%2d 회 : ", m+1);
 				for(int n : lotto) {
 					System.out.printf("%3d", n);
