@@ -1,0 +1,59 @@
+package day0322;
+
+import java.util.Scanner;
+
+class Orange {
+	
+	// private 접근 지정자는 같은 클래스 내에서만 접근이 가능하다 
+	// Ex2_Object에서는 접근 불가! 
+	// 멤버 변수는 자동 초기화가 되기 때문에 초기에 초기화를 해주지 않아도 됨! (null, 0으로 초기화 됨)
+	private String name; 
+	private int age;
+	
+	// getter 메서드 : 멤버 변수값을 반환하는 메서드 (규칙 : getName, getAge) 
+	public String getName() {
+		return name;
+		// 원래대로 적으면 return this.name으로 작성해야 하는데 
+		// this : 자기 자신을 의미하는 인스턴스 변수임 (일반 멤버메서드에만 존재하고, static 메서드에는 없음!) 
+		// 그래서 static에서는 멤버변수 접근 불가능 -> 그래서 new를 생성해서 접근하는 거임!
+		// 무조건 this 생략인건 아니고, 
+		// 같은 구역 안에서 같은 이름이 없을 경우에만 this 생략 가능 
+	}
+	
+	public int getAge() {
+		return age;
+	}
+	
+	// setter 메서드 : 외부로부터 값을 받아서 멤버 변수의 값을 변경 
+	// 멤버변수와 지역변수가 같으니까 웬만해서 this를 붙여주는게 좋음 
+	public void setName(String name) {
+		this.name = name; // 인자에 있는 name 값을 멤버 변수 name으로 전달 
+	}
+	
+	public void setAge(int age) {
+		this.age = age;
+	}
+	
+}
+
+public class Ex2_Object {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Orange or = new Orange();
+		System.out.println("초기값 확인 ");
+		System.out.println("name : " + or.getName());
+		System.out.println("age : " + or.getAge());
+		
+		System.out.println("이름과 나이 변경 후 출력");
+		or.setAge(23);
+		or.setName("옥순이");
+		
+		System.out.println("name : " + or.getName());
+		System.out.println("age : " + or.getAge());
+		
+
+	}
+
+}

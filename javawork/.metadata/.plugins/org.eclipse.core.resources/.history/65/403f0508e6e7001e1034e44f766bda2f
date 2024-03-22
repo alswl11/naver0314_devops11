@@ -50,7 +50,6 @@ public class Book199_9 {
 				double avg = 0;
 
 				for(int i = 0; i<score.length; i++) {
-					max = score[0];
 					if(max<score[i]) {
 						max = score[i];
 					}
