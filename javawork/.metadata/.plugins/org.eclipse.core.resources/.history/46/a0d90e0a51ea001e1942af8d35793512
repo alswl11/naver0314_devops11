@@ -1,0 +1,72 @@
+package day0325;
+
+public class Student {
+	
+	private String name;
+	private int java;
+	private int spring;
+	private int score;
+
+	
+	// 생성자 (4개)
+	public Student() {
+//		super(); // 원래는 부모 클래스의 디폴트 생성자 호출하는 명령어 (생략가능)  
+		this("아무개", 10, 10);
+	}
+	public Student(String name) {
+		super();
+		this.name = name;
+	}
+	public Student(int java, int spring) {
+		super();
+		this.java = java;
+		this.spring = spring;
+	}
+	public Student(String name, int java, int spring) {
+		super();
+		this.name = name;
+		this.java = java;
+		this.spring = spring;
+	}
+	
+	
+	// setter & getter method
+	
+	public String getName() {
+		return name;
+	}
+	public int getJava() {
+		return java;
+	}
+	public int getSpring() {
+		return spring;
+	}
+	public int getTotal() {
+		int total = java + spring;
+		return total;
+	}
+	public double getAverage() {
+		double avg = (double)(java+spring) / 2;
+		return avg;
+	}
+//	public String getGrade () {
+//		
+//		return grd;
+//	}
+	
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+	public void setJava(int java) {
+		this.java = java;
+	}
+	public void setSpring(int spring) {
+		this.spring = spring;
+	}
+	public void setScore(int score) {
+		this.score = score;
+	}
+	
+
+}
