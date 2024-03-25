@@ -37,9 +37,6 @@ public class Ex11_Book328 {
 		Cat2 cat = new Cat2();
 		cat.sound();
 		
-		
-		
-		
 		animalSound(new Dog2());
 		animalSound(new Cat2());
 
