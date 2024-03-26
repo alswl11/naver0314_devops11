@@ -1,0 +1,13 @@
+package day0326;
+
+abstract class AbsEx1 {
+
+}
+public class Ex2_Abstract {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

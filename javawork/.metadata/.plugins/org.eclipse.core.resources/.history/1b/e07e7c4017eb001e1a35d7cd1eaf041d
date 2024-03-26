@@ -1,0 +1,18 @@
+package day0326;
+
+interface Apple {
+	public void one();
+}
+
+// 인터페이스끼리의 상속은 extends 
+interface Banana extends Apple{
+	public void two();
+}
+public class Ex5_Interface {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
