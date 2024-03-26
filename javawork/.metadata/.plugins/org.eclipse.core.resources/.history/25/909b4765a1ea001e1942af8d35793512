@@ -1,0 +1,18 @@
+package day0325;
+
+public class MinusAccount extends BankAccount {
+
+	private Long minusLimit;
+	
+	public MinusAccount(String number, String passworkd, String name, long balance, long minusLimit) {
+		super(number, passworkd, name, balance);
+		this.minusLimit = minusLimit;
+		
+		// TODO Auto-generated constructor stub
+		
+		
+		
+	}
+	
+
+}

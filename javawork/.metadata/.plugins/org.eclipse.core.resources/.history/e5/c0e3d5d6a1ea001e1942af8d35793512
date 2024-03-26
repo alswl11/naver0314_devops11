@@ -1,0 +1,39 @@
+package day0325;
+
+import java.util.Scanner;
+
+public class BankMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		
+		BankAccount bank = new BankAccount("100-123", "1234", "홍길동", 1000L);
+		
+		Scanner sc = new Scanner(System.in);
+		
+	
+		
+		
+		bank.printAccount();
+		System.out.print("입금 금액을 입력해 주세요 : ");
+		long inputAccount = sc.nextLong();
+		bank.deposit();
+		bank.printAccount();
+		bank.withdraw();
+		bank.printAccount();
+		
+		System.out.println("=".repeat(50));
+		
+		MinusAccount ma = new MinusAccount("123-101","5432", "박문수", 10000L, 1000L);
+		
+		ma.printAccount();
+		ma.deposit();
+		ma.printAccount();
+		ma.withdraw();
+		ma.printAccount();
+		
+	}
+
+}
