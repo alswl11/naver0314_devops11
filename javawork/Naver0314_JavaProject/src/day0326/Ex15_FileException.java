@@ -6,8 +6,8 @@ import java.util.Scanner;
 
 public class Ex15_FileException {
 
-	static final String FILENAME = "/Users/parkminji/Documents/naver_0314/workall/memo1.txt";
-	static final String FILENAME2 = "/Users/parkminji/Documents/naver_0314/workall/memo2.txt";
+	static final String FILENAME = "/Users/parkminji/Documents/naver_0314/memo1.txt";
+	static final String FILENAME2 = "/Users/parkminji/Documents/naver_0314/memo2.txt";
 
 	
 	static public void fileSave() {

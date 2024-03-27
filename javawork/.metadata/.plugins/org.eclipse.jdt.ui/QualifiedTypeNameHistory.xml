@@ -42,4 +42,6 @@
     <fullyQualifiedTypeName name="day0325.BankAccount"/>
     <fullyQualifiedTypeName name="javax.print.attribute.standard.OutputDeviceAssigned"/>
     <fullyQualifiedTypeName name="java.lang.OutOfMemoryError"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
 </qualifiedTypeNameHistroy>

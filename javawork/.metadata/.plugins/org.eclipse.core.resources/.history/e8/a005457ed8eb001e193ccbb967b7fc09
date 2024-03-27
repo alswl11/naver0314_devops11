@@ -1,0 +1,40 @@
+package day0327;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class Ex1_Set {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/*
+		 *  Set 인터페이스를 구현한 클래스 -> TreeSet / HashSet
+		 *  Set 타입의 특징 
+		 *  	1. 중복 데이터를 허용하지 않는다 
+		 *  	2. 비순차적 (입력한 순서대로 저장되지 않음)
+		 *  	3. TreeSet은 오름차순으로 들어가고 HashSet은 자기 마음대로 들어간다 
+		 *  
+		 *  
+		 */
+		
+		// <Integer> : 제네릭, 해당 컬렉션에는 Integer 타입만 넣을 수 있음, 다른 타입 넣을 경우 컴파일 오류 발생 
+		// Set<Integer> set1 = new HashSet<Integer>();
+		Set<Integer> set1 = new HashSet<>(); // 뒷부분 제너릭은 생략가능! 
+		set1.add(100); // JDK5 이전에는 set.add(new Integer(100)) 이라고 써야 햇음 ㅠㅠ
+		set1.add(78);
+		set1.add(78);
+		set1.add(100);
+		set1.add(65);
+		
+		System.out.println("set1의 데이터 갯수 : " + set1.size() +"\n");
+		// output : 3, 중복데이터는 1번만 포함 
+		
+		System.out.println(" ** 출력 1 ** ");
+		for(int n : set1) { // set1에 있는 걸 n이 꺼내서 ~
+			System.out.println(n);
+		}
+
+	}
+
+}

@@ -1,7 +1,10 @@
 package day0326;
 
 import java.io.BufferedReader;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.IOException;
+import java.text.NumberFormat;
 
 /*
  * 
@@ -18,18 +21,58 @@ import java.io.FileReader;
  */
 public class Ex17_ExceptionMunje {
 
-	static final String FILENAME3 = "/Users/parkminji/Documents/naver_0314/workall/memo2.txt";
+	static final String FILENAME3 = "/Users/parkminji/Documents/naver_0314/score.txt";
+	static public void scoreRead() throws IOException {
 
-	static public void readFile() {
-
-		BufferedReader br = null;
-		FileReader fr = null;
-		int count, tot;
+		int score, count= 0, sum = 0;
 		double avg;
+		FileReader fr = null;
+		BufferedReader br = null;
+		
+		try {
+			fr = new FileReader(FILENAME3);
+			br = new BufferedReader(fr);
+			
+			while (true) {
+				String s = br.readLine();
+				if(s == null)
+					break;
+				try {
+					score = Integer.parseInt(s);
+					count ++;
+					sum+= score;
+				} catch (NumberFormatException e) {
+					// TODO: handle exception
+				}
+			}
+			avg = (double)sum/count;
+			System.out.println("점수 갯수 : " + count);
+			System.out.println("총 점 : "  + sum);
+			// 소숫점 이하 2자리까지 출력 
+			NumberFormat nf = NumberFormat.getInstance();
+			nf.setMaximumFractionDigits(2);
+			System.out.println("평 균 : " + nf.format(avg));
+		} catch (FileNotFoundException e) {
+			// TODO: handle exception
+			System.out.println("파일이 없어요 : " + e.getMessage());
+		}finally {
+			br.close();
+			fr.close();
+		}
+
 	}
+
 		public static void main(String[] args) {
 			// TODO Auto-generated method stub
 
+			try {
+				scoreRead();
+			} catch (IOException e) {
+				// TODO: handle exception
+				e.getStackTrace();
+			}
+			
+			
 		}
 
 	}

@@ -8,7 +8,7 @@ import java.nio.Buffer;
 
 public class Ex16_FileReaderMemo {
 
-	static final String FILENAME2 = "/Users/parkminji/Documents/naver_0314/workall/memo2.txt";
+	static final String FILENAME2 = "/Users/parkminji/Documents/naver_0314/memo2.txt";
 
 
 	static public void readMemo2()
