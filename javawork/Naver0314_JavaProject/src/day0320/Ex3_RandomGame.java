@@ -31,7 +31,8 @@ public class Ex3_RandomGame {
 				count = 0;
 
 				// 난수 구하기 
-				rnd = rd.nextInt(100)+1; // 1~100 사이의 수가 정해짐  
+				//rnd = rd.nextInt(100)+1; // 1~100 사이의 수가 정해짐  
+				rnd = rd.nextInt(200)+55;
 
 				while(true) {
 					System.out.print(++count + "회 : ");
