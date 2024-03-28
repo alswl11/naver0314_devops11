@@ -170,12 +170,9 @@ public class Ex9_VectorMunje {
 					dto.getJava(), 
 					dto.getSpring(), 
 					dto.getHtml(), 
-//					dto.getTotal(dto.getJava(), dto.getSpring(), dto.getHtml()),
-					dto.getTotal(),
-//					dto.getAvg(dto.getJava(), dto.getSpring(), dto.getHtml()), 
-					dto.getAvg(),
-//					dto.getGrade(dto.getJava(), dto.getSpring(), dto.getHtml()));
-					dto.getGrade());
+					dto.getTotal(dto.getJava(), dto.getSpring(), dto.getHtml()),
+					dto.getAvg(dto.getJava(), dto.getSpring(), dto.getHtml()), 
+					dto.getGrade(dto.getJava(), dto.getSpring(), dto.getHtml()));
 			
 			// nf.format(dto.getAvg()) + 해도 됨 
 		}
@@ -194,16 +191,16 @@ public class Ex9_VectorMunje {
 
 		for(int i = 0; i<list.size(); i++) {
 			StudentDto dto = list.get(i);
-			if(dto.getAvg() >=90.0) {
+			if(dto.getAvg(i, i, i) >=90.0) {
 				f = true;
 				System.out.println("=".repeat(60));
 				System.out.println("이름 : " + dto.getName());
 				System.out.println("나이 : " + dto.getAge());
 				System.out.println("자바 : " + dto.getJava());
 				System.out.println("스프링 : " + dto.getSpring());
-				System.out.println("총점 : " + dto.getTotal());
+				System.out.println("총점 : " + dto.getTotal(dto.getJava(), dto.getSpring(), dto.getHtml()));
 				System.out.println("평균 : " + dto.getAge());
-				System.out.println("등급 : " + dto.getGrade());
+				System.out.println("등급 : " + dto.getGrade(dto.getJava(), dto.getSpring(), dto.getHtml()));
 			}
 			if(!f) 
 				System.out.println(avg + "이상의 점수를 가진 학생이 없습니다");
@@ -228,9 +225,9 @@ public class Ex9_VectorMunje {
 				System.out.println("나이 : " + dto.getAge());
 				System.out.println("자바 : " + dto.getJava());
 				System.out.println("스프링 : " + dto.getSpring());
-				System.out.println("총점 : " + dto.getTotal());
-				System.out.println("평균 : " + dto.getAvg());
-				System.out.println("등급 : " + dto.getGrade());
+				System.out.println("총점 : " + dto.getTotal(dto.getJava(), dto.getSpring(), dto.getHtml()));
+				System.out.println("평균 : " + dto.getAvg(dto.getJava(), dto.getSpring(), dto.getHtml()));
+				System.out.println("등급 : " + dto.getGrade(dto.getJava(), dto.getSpring(), dto.getHtml()));
 			}
 			if(!f) {
 				System.out.println(name + "님은 명단에 없습니다");
@@ -246,7 +243,9 @@ public class Ex9_VectorMunje {
 			fw = new FileWriter(FILENAME);
 			for(StudentDto dto : list) {
 				String s = dto.getName() + "," + dto.getAge() + "," + dto.getJava() + "," + dto.getSpring()
-				+ "," + dto.getHtml() + "," + dto.getTotal() + "," + dto.getAvg() + "," + dto.getGrade() + "\n";
+				+ "," + dto.getHtml() + "," + dto.getTotal(dto.getJava(), dto.getSpring(), dto.getHtml()) 
+				+ "," + dto.getAvg(dto.getJava(), dto.getSpring(), dto.getHtml())
+				+ "," + dto.getGrade(dto.getJava(), dto.getSpring(), dto.getHtml());
 				fw.write(s);
 			}
 			System.out.println("총 " + list.size() + "개의 정보를 파일에 저장함");
