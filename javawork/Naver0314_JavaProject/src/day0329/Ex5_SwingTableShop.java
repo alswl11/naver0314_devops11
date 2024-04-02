@@ -5,6 +5,11 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.time.MonthDay;
 import java.util.Vector;
 
@@ -25,6 +30,8 @@ public class Ex5_SwingTableShop extends JFrame{
 	JButton btnAdd, btnDelete;
 	JTextField tfSang, tfSu, tfDan;
 	
+	static final String FILENAME = "/Users/parkminji/Documents/naver_0314/myshop.txt";
+	
 	public Ex5_SwingTableShop(String title) {
 		super(title);
 		this.setLocation(100, 100); // 시작 위치 
@@ -38,18 +45,88 @@ public class Ex5_SwingTableShop extends JFrame{
 			// TODO Auto-generated method stub
 			super.windowClosed(e);
 			
+			FileWriter fw = null;
+			try {
+				fw = new FileWriter(FILENAME);
+				
+				// 테이블 행갯수만큼 반복해서 데이터 읽기
+				for(int i = 0; i<table.getRowCount(); i++) {
+					String sang = table.getValueAt(i, 0).toString();
+					String su = table.getValueAt(i, 0).toString();
+					String dan = table.getValueAt(i, 0).toString();
+					String total = table.getValueAt(i, 0).toString();
+					
+					String s = sang + "," + su + "," + dan + "," + total + "\n";
+					
+					// 파일에 저장 
+					fw.write(s);
+				}
+			} catch (IOException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			}finally {
+				try {
+					fw.close();
+					
+				} catch (IOException e2) {
+					// TODO: handle exception
+					e2.printStackTrace();
+				}
+			}
+			
 			System.exit(0);
 		}
 		
 		});
-		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // 프레임 종료 만 시켜줌 
+		//this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // 프레임 종료 만 시켜줌 
 		this.initDesign(); // 각종 컴포넌트 생성 
+		// 파일의 내용을 불러오면 테이블이 생성됨 
+		this.shopFileRead();
 		this.setVisible(true); 
 		
 		
 	}
 	
+	// 파일 불러와서 테이블에 출력하는 메소드 
+	private void shopFileRead() {
+		// TODO Auto-generated method stub
+		FileReader fr = null;
+		BufferedReader br = null;
+		
+		try {
+			fr = new FileReader(FILENAME);
+			br = new BufferedReader(fr);
+			
+			while(true) {
+				String s = br.readLine();
+				if(s == null)
+					break;
+				// ,로 불리해서 배열 만듦 
+				String [] data = s.split(",");
+				// 테이블에 추가 
+				tableModel.addRow(data);
+			}
+			
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			// e.printStackTrace();
+			System.out.println("파일없음 : " +e.getMessage());
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} finally {
+			try {
+				br.close();
+				fr.close();
+			} catch (IOException | NullPointerException e2) {
+				// TODO: handle exception
+			}
+		}
+		
+	}
+
 	public void initDesign() {
+		
 		
 		// 상단에는 추가, 삭제 버튼
 		JPanel pTop = new JPanel();
@@ -88,20 +165,36 @@ public class Ex5_SwingTableShop extends JFrame{
 			public void actionPerformed(ActionEvent e) {
 				// TODO Auto-generated method stub
 				
+				
+				// 입력 안했을 경우 
+				
 				if(tfSang.getText().length()==0) {
 					JOptionPane.showMessageDialog(Ex5_SwingTableShop.this, "상품명을 입력해주세요");
+					return;
 				}
 				if(tfSu.getText().length()==0) {
 					JOptionPane.showMessageDialog(Ex5_SwingTableShop.this, "수량을 입력해주세요");
+					return;
 				}
 				if(tfDan.getText().length()==0) {
 					JOptionPane.showMessageDialog(Ex5_SwingTableShop.this, "단가를 입력해주세요");
+					return;
 				}
 				
 				String sang = tfSang.getText();
-				int su = Integer.parseInt(tfSu.getText());
-				int dan = Integer.parseInt(tfDan.getText());
+				int su= 0, dan = 0;
+				
+				try {
+					 su = Integer.parseInt(tfSu.getText()); 
+					 dan = Integer.parseInt(tfDan.getText());
+				} catch (NumberFormatException e2) {
+					// TODO: handle exception
+					System.out.println("수량, 단가 입력 오류");
+					JOptionPane.showMessageDialog(Ex5_SwingTableShop.this, "수량, 단가는 숫자로만 입력해주세요");
+					return;
+				}
 				int total = su*dan;
+				
 				
 				// Vector로 데이터를 담는다 (data)
 				Vector<String> data = new Vector<String>();
