@@ -1,7 +1,5 @@
 package day0404db;
 
-import day0401_prac.ClientChat;
-
 import java.sql.*;
 
 public class Ex1_MysqlSawon {
