@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Black+Han+Sans&family=Bungee+Spice&family=Diphylleia&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nanum+Pen+Script&family=Song+Myung&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+
+    <style>
+        body * {
+            font-family: "Song Myung";
+        }
+    </style>
+    <script>
+        $(function () {
+            $("div.hello").css("color", "green");
+            let color1 = $("div.hello").css("color");
+            $("#bit2").css("background-color", color1);
+
+            // 방법 1
+            // $("div.bit3>div.bit4").css("color", "magenta").css("background-color", "yellow")
+
+            // 방법 2
+            $("div.bit3>div.bit4").css({
+                "color" : "magenta",
+                "background-color" : "pink"
+            });
+
+            // 같은 selector 중에 하나씩 다른 값을 적용할 경우
+            // eq, gt, lt
+
+            // 방법 1
+            // $("div.bit3>div.bit4:eq(1)").css("border", "1px solid gray");
+
+            // 방법 2
+            $("div.bit3>div.bit4").eq(1).css("border", "1px solid gray");
+
+            $(".hello").css({
+                "background-color" : "orange",
+                "margin-top" : "20px",
+                "width" : "200px",
+                "border" : "3px dotted red"
+            });
+
+            // body 태그의 모든 하위태그의 글꼴 변경
+            $("body *").css("font-family", "Song Myung");
+
+            // 동시 적용
+            $("#bit, #bit2").css("text-decoration", "underline");
+
+        });
+    </script>
+</head>
+<body>
+<!--<div>he</div>-->
+<!--<div class="hello">Div class hello</div>-->
+<div class="hello">Div class hello</div>
+<h3 class="hello">h3 class hello</h3>
+<b id="bit">b tag id bit</b>
+<h1 id="bit2">h1 id bit2</h1>
+<div class="bit3">
+    bit3 class
+    <div class="bit4">
+        bit3 아래 bit4 class #1
+    </div>
+    <div class="bit4">
+        bit3 아래 bit4 class #2
+    </div>
+</div>
+</body>
+</html>

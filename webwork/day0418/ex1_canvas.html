@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Black+Han+Sans&family=Bungee+Spice&family=Diphylleia&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nanum+Pen+Script&family=Song+Myung&display=swap" rel="stylesheet">
+
+    <style>
+        body * {
+            font-family: "Song Myung";
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            let canvas = document.getElementById("can");
+            let ctx = canvas.getContext("2d");
+
+            // 선 그리기
+            ctx.lineWidth = 3; // 선 굵기
+            ctx.strokeStyle = "hotpink"; // 선 생상
+            ctx.beginPath();
+            ctx.moveTo(50,50); // 선 그리기 시작할 위치로 이동
+            ctx.lineTo(150,150); //여기까지가 선그리기
+            ctx.lineTo(250,50); //여기까지가 선그리기
+            ctx.lineTo(50,50); //여기까지가 선그리기
+            ctx.stroke(); // 실제로 선 그어줌
+            ctx.closePath();
+
+            // 사각형
+            ctx.strokeStyle = "green";
+            ctx.fillStyle = "orange";
+            ctx.lineWidth = 5;
+            ctx.fillRect(50,200,100,100); // x,y,w,h
+            ctx.strokeRect(200,200,100,100); // 테두리만 있는 사각형
+
+            // 그래픽 글자 - 그림자
+            ctx.shadowOffsetX = 5;
+            ctx.shadowOffsety = 5;
+            ctx.shadowBlur = 10;
+            ctx.shadowColor = "gray";
+
+            ctx.font = "30px Song Myung"; // 글자 크기, 글꼴
+            ctx.fillText("Have a Good Day", 20, 400);// 문자열, x, y
+
+            // 그래픽 글자 - 그림자
+            ctx.shadowOffsetX = 5;
+            ctx.shadowOffsety = 5;
+            ctx.shadowBlur = 10;
+            ctx.shadowColor = "gray";
+            ctx.fillStyle = "blue";
+
+            ctx.font = "40px Bagel Fat One"; // 글자 크기, 글꼴
+            ctx.fillText("목요일이래요", 20, 450);// 문자열, x, y
+
+            // 이미지 나타내기
+            let image = new Image();
+            image.src = "../image/mycar/mycar13.png";
+
+            image.onload = function () {
+                ctx.drawImage(image, 300, 50, 150, 100);
+            }
+
+        }
+    </script>
+</head>
+<body>
+<canvas id="can" style="border: 1px solid black" width="500" height="500"></canvas>
+
+</body>
+</html>
