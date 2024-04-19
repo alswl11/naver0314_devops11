@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Black+Han+Sans&family=Bungee+Spice&family=Diphylleia&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nanum+Pen+Script&family=Song+Myung&display=swap"
+          rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+
+    <style>
+        body * {
+            font-family: "Song Myung";
+        }
+    </style>
+    <script>
+        $(function () {
+            // 1. ul.bit 중 odd의 글자색을 red, 배경색 orange
+            $("ul>li:odd").css({
+                "background-color": "orange",
+                "color": "red"
+            });
+
+            // 2. div.happy 아래의 div,nice 의 배경색, 테두리선, 글자선, 너비 모두 변경
+            $("div.happy>div.nice").css({
+                "background-color": "green",
+                "border": "5px solid black",
+                "width": "180px",
+                "color": "yellow"
+            });
+            // 3. div.happy 아래의 h3의 글꼴, 글자색, 배경색, 커서 변경
+            $("div.happy>h3").css({
+                "background-color": "pink",
+                "font-family": "Bagel Fat One",
+                "color": "gray",
+                "cursor": "pointer"
+            });
+            // 4. div.happy 아래의 h3 클릭 시 '안녕하세요' 경고창 띄우기
+            $("div.happy>h3").click(function () {
+                alert("안녕하세요")
+            });
+
+            // 5. div.happy 아래의 img 태그의 너비를 200px로 변경
+            $("div.happy>img").attr("width", "200px");
+
+            // 6. div.happy 아래의 img 태그에 마우스를 올리면
+            // "border" : "10px inset gold"로 변경하고 마우스를 내리면 다시 border를 없앤다
+            $("div.happy>img").mouseover(function() {
+                photo = $(this).attr("border");
+                $(this).css("border", "10px inset gold");
+            });
+            $("div.happy>img").mouseout(function () {
+                photo = $(this).css("border", "0");
+            })
+
+            // 7.  div.happy 아래의 img 태그에 마우스 클릭 시 해당 이미지를 얻어서 img.mycar에 이미즐 넣고
+            // img.mycar의 너비를 150px로 변경
+            $("div.happy>img").click(function () {
+                let src = $(this).attr("src");
+                console.log(src);
+                $(".mycar").attr("src", src);
+                $("img.mycar").css("width", "150px")
+
+            })
+        })
+    </script>
+</head>
+<body>
+<div class="happy">
+    <div class="nice">오늘은 금요일 !!</div>
+    <div class="nice2">제이쿼리 공부 중...</div>
+</div>
+<div class="happy">
+    <h3> 이미지 출력</h3>
+    <img src="../image/mycar/mycar11.png">
+    <img src="../image/mycar/mycar13.png">
+</div>
+<img src="" class="mycar">
+<img src="" class="mycar">
+<img src="" class="mycar">
+<img src="" class="mycar">
+<img src="" class="mycar">
+<ul class="bit">
+    <li>장미꽃</li>
+    <li>국화꽃</li>
+    <li>안개꽃</li>
+    <li>할미꽃</li>
+    <li>호박꽃</li>
+</ul>
+</body>
+</html>
