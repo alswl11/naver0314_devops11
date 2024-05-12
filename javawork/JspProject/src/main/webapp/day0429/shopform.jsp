@@ -27,7 +27,6 @@
             top: 100px;
             width: 150px;
             border: 3px solid gray;
-
         }
     </style>
 </head>

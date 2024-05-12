@@ -57,8 +57,16 @@
                 style="margin-left: 10px; height: 50px">사원 추가
         </button>
     </div>
-
 </div>
+
+<div style="margin: 20px 50px">
+    <button type="button" class="btn btn-success" style="width: 170px" onclick="location.href = 'sawongenderanalysis.jsp'">우리회사 성별 분석표</button>
+</div>
+
+<div style="margin: 20px 50px">
+    <button type="button" class="btn btn-success" style="width: 180px" onclick="location.href = 'sawonbuseoanalysis.jsp'">우리회사 부서별 분석표</button>
+</div>
+
 <%
     for (SawonDto dto : list) { %>
 

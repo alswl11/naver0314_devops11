@@ -1,0 +1,6 @@
+[
+
+  {"name": "신세경", "photo" : "../../shop/1.jpg", "age" : "29세"},
+  {"name": "강동원", "photo" : "../../shop/2.jpg", "age" : "35세"},
+  {"name": "수지", "photo" : "../../shop/3.jpg", "age" : "21세"}
+]

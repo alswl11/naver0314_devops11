@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+    <mycar>
+        <title>폭스바겐핑크1</title>
+        <photo>../shop/1.jpg</photo>
+    </mycar>
+    <mycar>
+        <title>폭스바겐핑크2</title>
+        <photo>../shop/2.jpg</photo>
+    </mycar>
+    <mycar>
+        <title>폭스바겐핑크3</title>
+        <photo>../shop/3.jpg</photo>
+    </mycar>
+</data>

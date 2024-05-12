@@ -1,6 +1,5 @@
-package day0401_prac;
+package prac;
 
-import javax.naming.ldap.SortKey;
 import javax.swing.*;
 import java.awt.*;
 import java.net.ServerSocket;
