@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="SqlDialectMappings">
-    <file url="file://$PROJECT_DIR$/DBwork/0404_oracle.sql" dialect="OracleSqlPlus" />
-    <file url="file://$PROJECT_DIR$/DBwork/console_1.sql" dialect="OracleSqlPlus" />
-    <file url="file://$PROJECT_DIR$/DBwork/console_2.sql" dialect="GenericSQL" />
-    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/8699f0d9-a954-4412-879f-7da214b1b7bb/console_2.sql" dialect="MySQL" />
-  </component>
-</project>
