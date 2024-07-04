@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Black+Han+Sans&family=Bungee+Spice&family=Diphylleia&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nanum+Pen+Script&family=Song+Myung&display=swap"
+          rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <style>
+        body * {
+            font-family: "Song Myung";
+        }
+
+        div {
+            width: 400px;
+            font-size: 20px;
+            text-align: center;
+            height: 80px;
+            line-height: 80px;
+            margin-bottom: 5px;
+        }
+
+        .box_0 {
+            border: 10px inset orange;
+            background-color: hotpink;
+            font-family: "Bagel Fat One";
+        }
+
+        .box_1 {
+            border: 10px groove darkslategrey;
+            background-color: indianred;
+            font-family: "Song Myung";
+        }
+
+        .box_2 {
+            border: 10px solid midnightblue;
+            background-color: yellowgreen;
+            font-family: "Black Han Sans";
+        }
+
+        .box_3 {
+            border: 10px dotted darkolivegreen;
+            background-color: mediumvioletred;
+            font-family: "Nanum Pen Script";
+        }
+
+        .box_4 {
+            border: 10px inset gray;
+            background-color: lightcoral;
+            font-family: "Song Myung";
+        }
+    </style>
+</head>
+<body>
+<button type="button" class="btn btn-info" id="btn1">단계적 클래스 적용하기</button>
+<br>
+<button type="button" class="btn btn-info" id="btn2">적용된 클래스 모두 제거하기</button>
+<br>
+<div class="box">Have a Good Day!!</div>
+<div class="box">Have a Good Day!!</div>
+<div class="box">Have a Good Day!!</div>
+<div class="box">Have a Good Day!!</div>
+<div class="box">Have a Good Day!!</div>
+<script>
+    $("#btn1").click(function () {
+        // 선택지 갯수만큼 반복을 하고자 할 경우 each 문 이용
+        $("div.box").each(function (idx, ele) {
+            $(this).addClass("box_" + idx);
+        })
+    });
+    $("#btn2").click(function () {
+        // 선택지 갯수만큼 반복을 하고자 할 경우 each 문 이용
+        $("div.box").each(function (idx, ele) {
+            $(this).removeClass("box_" + idx);
+        })
+    });
+</script>
+</body>
+</html>

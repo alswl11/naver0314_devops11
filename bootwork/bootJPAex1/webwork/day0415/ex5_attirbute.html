@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #msg {
+            font-size: 20px;
+            font-weight: bold;
+            width: 300px;
+            padding: 10px;
+            height: auto;
+            border: 5px groove palevioletred;
+            margin-top: 20px;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            let img1= document.getElementById("img1");
+
+            // btn1 event
+            document.getElementById("btn1").onclick = function () {
+                let src = img1.getAttribute("src");
+                let w = img1.getAttribute("width");
+                let t = img1.getAttribute("title");
+
+                msg.innerHTML =
+                    `
+                    image src : ${src}<br>
+                    image tilte : ${t}<br>
+                    image width : ${w}<br>
+                    `;
+            }
+
+            // btn2 event
+            document.getElementById("btn2").onclick = function () {
+                img1.setAttribute("src", "../image/mycar/mycar15.png");
+                img1.setAttribute("width", "300");
+                img1.setAttribute("title", "together");
+            }
+        }
+    </script>
+</head>
+<body>
+<h2>setAttribute, getAttribute</h2>
+<img src="../image/mycar/mycar13.png" id = "img1" width="200" title="my pink car">
+<br><br>
+<button type="button" id="btn1">get attribute</button>
+<button type="button" id="btn2">change attribute</button>
+
+<br>
+<div id="msg">result</div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        window.onload = function () {
+            // 해당 아이디가 존재하면 요소값을 얻는다
+            let b3 = document.getElementById("btn3");
+            b3.onclick = function () {
+                alert("btn3 click");
+            }
+        }
+
+        function test2() {
+            alert("함수2 호출")
+        }
+    </script>
+
+</head>
+<body>
+<button type="button" onclick="test()">fun #1</button>
+<!--body 안에서 함수 구현할 경우 호출하는 위치보다는 아래에 함수 구현-->
+<script>
+    function test() {
+        alert("함수1 호출")
+    }
+</script>
+
+<button type="button" onclick="test2()">fun #2</button>
+
+<button type="button" id="btn3">fun #3</button>
+
+<!--변수에 id를 넣어 이벤트를 줄때 바디에 구현할경우 그냥 function()함수에 쓸수 있다.-->
+<button type="button" id="btn4">fun #4</button>
+<script>
+    let b4 = document.getElementById("btn4");
+    b4.onclick = function () {
+        alert("btn4 click")
+    }
+</script>
+
+</body>
+</html>

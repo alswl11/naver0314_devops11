@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Black+Han+Sans&family=Bungee+Spice&family=Diphylleia&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nanum+Pen+Script&family=Song+Myung&display=swap"
+          rel="stylesheet">
+    <style>
+        body * {
+            font-family: "Bagel Fat One";
+        }
+
+        div.dateview {
+            margin: 40px 20px;
+            /*background-color: gray;*/
+        }
+
+        div.dateview table {
+            border: 5px groove gray;
+            border-collapse: collapse;
+            width: 500px;
+            font-size: 20px;
+        }
+
+        div.dateview table thead tr, div.dateview table thead th {
+            height: 50px;
+            background-color: slategray;
+            color: darkslategrey;
+            border-bottom: 4px double green;
+        }
+
+        div.dateview table tbody tr, div.dateview table tbody td {
+            height: 50px;
+            border: 1px solid green;
+            text-align: center;
+            font-size: 25px;
+        }
+    </style>
+    <script>
+        let dview;
+
+        window.onload = function () {
+
+            dview = document.querySelector("div.dateview");
+
+            calendarView();
+            document.getElementById("selyear").onchange = function () {
+                curyear = Number(this.value);
+                calendarView();
+            }
+            document.getElementById("selmonth").onchange = function () {
+                curmonth = Number(this.value);
+                calendarView();
+            }
+        }
+
+        function calendarView() {
+            // 선택한 년도, 월의 1일에 해당하는 date 생성
+            let newdate = new Date(curyear, curmonth - 1, 1);
+            // alert(`${newdate.getFullYear()}, ${newdate.getMonth()+1}, ${newdate.getDay()}`);
+
+            let tag = "";
+            tag +=
+                `
+                <table>
+                <thead>
+                <tr>
+                <th>일</th><th>월</th><th>화</th><th>수</th><th>목</th><th>금</th><th>토</th>
+                </tr>
+                </thead>
+                <tbody>
+                `;
+
+            // 요일 숫자 구하기
+            let week;
+            week = newdate.getDay();
+
+            // 해당년도의 월이 며칠까지 있는지 구하기
+            let endday;
+            switch (curmonth) {
+                case 2 :
+                    endday = curyear%4 == 0 && curyear%100 !=0 | curyear%400 == 0? 29:28;
+                    break;
+                case 4:
+                case 6:
+                case 9:
+                case 11:
+                    endday= 30;
+                    break;
+                default :
+                    endday = 31;
+
+            }
+
+            tag += "<tr>";
+            for(let i = 1; i<=week; i++) {
+                tag += "<td></td>";
+            }
+            // 1일부터 endday까지 출력
+            for(let i=1; i<=endday; i++) {
+                week++;
+                tag += `<td>${i}</td>`;
+                if(week % 7 == 0) {
+                    tag += `</tr><tr>`;
+                }
+
+            }
+
+            if(week%7!=0){
+                while (true){
+                    week++;
+                    tag+=`<td></td>`;
+                    if (week%7==0){
+                        tag+="</tr>";
+                        break;
+                    }
+                }
+            }
+
+            // 단 토요일이 되면 출력 후 tr 닫고 다시 열기
+            tag += "</tbody></table>";
+            dview.innerHTML = tag;
+        }
+    </script>
+</head>
+<body>
+<!--<script>-->
+<!--    let date1 = new Date(2023, 11, 3);-->
+<!--    let y = date1.getFullYear();-->
+<!--    let m = date1.getMonth();-->
+<!--    let d = date1.getDate();-->
+<!--    let w = date1.getDay();-->
+
+<!--    let s = `${y}-${m}-${d} 요일 숫자 : ${w}`;-->
+<!--    document.write(s);-->
+<!--</script>-->
+<div style="margin-left: 100px">
+    <h2>javascript calendar</h2>
+    <script>
+        let curdate = new Date(); // current date
+        let curyear = curdate.getFullYear();
+        let curmonth = curdate.getMonth() + 1;
+
+    </script>
+
+    <select id="selyear" style="font-size: 20px">
+        <script>
+            for (let y = curyear; y >= 1980; y--) {
+                document.write(`<option>${y}</option>`);
+            }
+        </script>
+    </select>
+    year
+    &nbsp;&nbsp;
+
+    <select id="selmonth" style="font-size: 20px">
+        <script>
+            for (let m = 1; m <= 12; m++) {
+                document.write(`<option ${m == curmonth ? "selected" : ""}>${m}</option>`)
+            }
+        </script>
+    </select>
+    month
+</div>
+<div class="dateview"> 11 </div>
+</body>
+</html>

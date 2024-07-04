@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Black+Han+Sans&family=Bungee+Spice&family=Diphylleia&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nanum+Pen+Script&family=Song+Myung&display=swap" rel="stylesheet">
+
+    <style>
+        div.menu ul{
+            list-style: none;
+        }
+        div.menu li {
+            float: left;
+            font-family: 'Song Myung';
+            width: 150px;
+            border: 1px solid gray;
+            margin-right: 10px;
+            height: 60px;
+            text-align: center;
+            line-height: 60px; /* 한 줄일 경우 height와 같게 설정하면 세로 방향 가운데 정렬*/
+            font-size: 1.5em;
+            background-color: bisque;
+            color: darkblue;
+            border-radius: 10px;
+            box-shadow: 5px 5px 5px gray;
+            cursor: pointer;
+        }
+        div.menu ul li :hover {
+            background-color: burlywood;
+            color : white;
+        }
+        div.menu ul li :active{
+            background-color: black;
+            color : yellow;
+        }
+    </style>
+</head>
+<body>
+<h3><b>ul을 이용한 간단한 메뉴 만들기</b></h3>
+<div class="menu">
+    <ul>
+        <li>HOME</li>
+        <li>샵 소개</li>
+        <li>방명록</li>
+        <li>게시판</li>
+        <li>오시는 길</li>
+    </ul>
+</div>
+</body>
+</html>

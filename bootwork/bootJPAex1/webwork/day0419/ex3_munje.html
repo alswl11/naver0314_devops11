@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Black+Han+Sans&family=Bungee+Spice&family=Diphylleia&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nanum+Pen+Script&family=Song+Myung&display=swap"
+          rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+
+    <style>
+        body * {
+            font-family: "Song Myung";
+        }
+    </style>
+</head>
+<body>
+<img src="../image/talent/12.jpg" width="250" title="박보영이에유">
+<hr width="300" style=" background-color: orange; height: 10px;" >
+<div style="border: 1px solid gray; width: 300px"></div>
+
+<script>
+    // 1, 사진 클릭시 src와 width를 얻어서 hr 태그 다음에 같은 사진 넣기
+    // 사진의 title은 div 안에 넣고 글자 크기를 25px, 글꼴 변경하기
+    $("img").click(function(){
+        let imgSrc=$(this).attr("src");
+        let imgWidth=$(this).attr("width");
+        let imgTitle=$(this).attr("title");
+
+        $("hr").after(`<img src=${imgSrc} width=${imgWidth}>`);
+        $("div").append(`<b style="font-size:25px">${imgTitle}</b><br>`);
+    });
+</script>
+</body>
+</html>

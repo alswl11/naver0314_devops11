@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Black+Han+Sans&family=Bungee+Spice&family=Diphylleia&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nanum+Pen+Script&family=Song+Myung&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+<select id="selcolor">
+    <option hidden disabled selected>choose font color</option>
+    <option value="#ff69b4">pink</option>
+    <option value="#00fa9a">green</option>
+    <option value="#afeeee">skyblue</option>
+    <option value="#ee82ee">purple</option>
+</select>
+
+<select id="selfont">
+    <option hidden disabled selected>choose font</option>
+    <option>Bagel Fat One</option>
+    <option>Black Han Sans</option>
+    <option>Bungee Spice</option>
+    <option>Diphylleia</option>
+</select>
+
+<select id="selsize">
+    <option hidden disabled selected>choose font size</option>
+    <script>
+        for (let i = 10; i <= 40; i += 5) {
+            let s = `<option>${i}px</option>`;
+            document.write(s);
+        }
+    </script>
+</select>
+<div id="msg" style="margin-top: 20px; font-size: 15px; font-weight: bold">
+    Have a Good Day<br>
+    오늘은 비가 오는 월요일입니다
+</div>
+<script>
+    let m = document.getElementById("msg");
+
+    // color
+    document.getElementById("selcolor").onchange = function () {
+        m.style.color = this.value;
+    }
+    // font - font-family
+    document.getElementById("selfont").onchange = function () {
+        m.style.fontFamily = this.value;
+    }
+    // size - font-size
+    document.getElementById("selsize").onchange = function () {
+        m.style.fontSize = this.value;
+    }
+</script>
+</body>
+</html>

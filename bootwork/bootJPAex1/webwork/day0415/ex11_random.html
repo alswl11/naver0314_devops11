@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        window.onload = function () {
+            let car = document.getElementById("car");
+            setInterval(function () {
+                let n = parseInt(Math.random()*15)+1;
+                let s = `../image/mycar/mycar${n}.png`;
+                car.setAttribute("src", s);
+            }, 1000);
+        }
+    </script>
+</head>
+<body>
+<h2>5개의 random() 값 발생</h2>
+<script>
+    for(let i = 1; i<=5; i++) {
+        let r = Math.random();
+        document.write(r + "<br>");
+    }
+</script>
+<hr>
+<h2>5개의 0~9 사이의 random() 값 발생</h2>
+<script>
+    for(let i = 1; i<=5; i++) {
+        let r = parseInt(Math.random()*10);
+        document.write(r + "<br>");
+    }
+</script>
+<hr>
+<h2>5개의 0~99 사이의 random() 값 발생</h2>
+<script>
+    for(let i = 1; i<=5; i++) {
+        let r = parseInt(Math.random()*100);
+        document.write(r + "<br>");
+    }
+</script>
+<hr>
+<h2>5개의 1~10 사이의 random() 값 발생</h2>
+<script>
+    for(let i = 1; i<=5; i++) {
+        let r = parseInt(Math.random()*10)+1;
+        document.write(r + "<br>");
+    }
+</script>
+<hr>
+<h2>1~15 사이의 random() 값 발생 + 1초마다 자동차 사진 바꾸기</h2>
+<img src="../image/mycar/mycar1.png" id="car" width="300">
+<!--<div style="font-size: 1.3em" id="msg"></div>-->
+<hr>
+</body>
+</html>

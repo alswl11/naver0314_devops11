@@ -1,0 +1,33 @@
+
+server:
+  port: 8080
+
+  #mysql setting
+  #    driver-class-name: com.mysql.cj.jdbc.Driver
+  #    url: jdbc:mysql://db-n8650-kr.vpc-pub-cdb.ntruss.com:3306/studydb?serverTimezone=Asia/Seoul
+  #    username: study
+  #    password: bitcamp!@#123
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://db-n9jkf-kr.vpc-pub-cdb.ntruss.com/studydb?useSSL=true&serverTimezone=Asia/Seoul
+    username: project
+    password: bitcamp!@#123
+
+# jpa setting
+# ddl-auto : create (?? ??? ?? ? ?? ??) / update (??? ??? ??)
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+    # ddl ??? DB ??? ??? ??? ???
+    generate-ddl: true
+    # api ?? ? ???? sql?? ??? ??????
+    show-sql: true
+    # ??? ??? ??? ??
+    database: mysql
+    # mysql ????
+    database-platform: org.hibernate.dialect.MySQLDialect
+
+

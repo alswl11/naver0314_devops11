@@ -1,0 +1,67 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
+<html>
+<head>
+    <title>Title</title>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Black+Han+Sans&family=Bungee+Spice&family=Diphylleia&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nanum+Pen+Script&family=Song+Myung&display=swap"
+          rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+    <style>
+        body * {
+            font-family: "Song Myung";
+        }
+    </style>
+</head>
+<c:set var="stpath" value="https://kr.object.ncloudstorage.com/bitcamp-bucket-56/photocommon"/>
+<body>
+<h2 class="alert alert-danger" style="width: 500px;">
+    총 ${totalCount}명의 회원이 있습니다
+    <span style="float: right;">
+		<button type="button" class="btn btn-sm btn-success"
+                onclick="location.href='./form'">멤버등록</button>
+	</span>
+</h2>
+<%--admin이 아닌 계정으로 로그인 했거나 로그인 상태가 아닐경우 보여질 메세지--%>
+<%--<c:if test="${sessionScope.loginok==null and sessionScope.loginid !='admin'}">--%>
+<%--    <h2><b>전체 회원 명단은 관리자만 확인 가능합니다</b></h2>--%>
+<%--</c:if>--%>
+<%-- admin 계정으로 로그인시에만 전체 명단 확인할 수 있음--%>
+<%--<c:if test="${sessionScope.loginok!=null and sessionScope.loginid=='admin'}">--%>
+<table class="table table-striped" style="width: 500px;">
+    <caption align="top">
+        <h3><b>회원명단</b></h3>
+    </caption>
+    <tr class="table-danger">
+        <th width="50">번호</th>
+        <th width="120">회원명</th>
+        <th width="100">아이디</th>
+        <th width="140">핸드폰</th>
+        <th>상세보기</th>
+    </tr>
+    <c:forEach var="dto" items="${list}" varStatus="i">
+        <tr>
+            <td align="center">${i.count}</td>
+            <td>
+                <img src="${stpath}/${dto.photo}" class="rounded-circle"
+                     style="width: 40px;height: 40px;"
+                     onerror="this.src='../image/noimage1.png'">
+                    ${dto.name}
+            </td>
+            <td>${dto.myid}</td>
+            <td>${dto.hp}</td>
+            <td align="center">
+                <button type="button" class="btn btn-sm btn-info"
+                        onclick="location.href='./detail?num=${dto.num}'">Detail</button>
+            </td>
+        </tr>
+    </c:forEach>
+</table>
+<%--</c:if>--%>
+
+</body>
+</html>

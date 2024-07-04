@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;SwingGibon.java&apos; to &apos;Naver0314_JavaProject/src/day0401&apos;&#x0A;- Original project: &apos;Naver0314_JavaProject&apos;&#x0A;- Destination element: &apos;Naver0314_JavaProject/src/day0401&apos;&#x0A;- Original element: &apos;day0329.SwingGibon.java&apos;" description="Copy compilation unit" destination="/src&lt;day0401" element1="/src&lt;day0329{SwingGibon.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1711943567921" units="1" version="1.0"/>
+</session>

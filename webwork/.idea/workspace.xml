@@ -4,113 +4,199 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7abba2bd-87e2-49d5-b491-16f65e27a7de" name="Changes" comment="0409">
-      <change afterPath="$PROJECT_DIR$/image/div_img/actor1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/div_img/beauty1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/div_img/beauty2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/div_img/beauty3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/div_img/beauty4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/div_img/bottle01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/div_img/bottle02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/div_img/bottle03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/div_img/bottle04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/div_img/oneday01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/div_img/oneday02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/div_img/oneday03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/div_img/oneday04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/food/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/food/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/food/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/food/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/food/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/food/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/food/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/food/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/food/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/food/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/food/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/mainImage/K-034.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/mainImage/K-035.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/mainImage/K-036.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/mainImage/K-037.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/mainImage/K-038.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/mainImage/K-039.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/mainImage/K-040.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/mainImage/K-041.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/mainImage/K-042.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/mainImage/K-043.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/mainImage/K-044.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/mainImage/K-045.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/mainImage/K-046.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/mainImage/K-047.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/mainImage/K-048.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/mainImage/K-049.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/mainImage/K-050.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/mainImage/K-051.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/mainImage/K-052.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/mainImage/K-053.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/mainImage/K-054.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/mainImage/K-055.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/mainImage/K-057.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/mainImage/K-060.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/mainImage/mainImg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/people/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/people/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/people/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/people/13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/people/14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/people/15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/people/16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/people/17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/people/18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/people/19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/people/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/people/20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/people/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/people/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/people/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/people/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/people/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/people/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/people/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/popup/popup1_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/popup/popup2_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/popup/popup3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/popup/popup4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/popup/popup5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/shop/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/shop/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/shop/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/shop/13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/shop/14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/shop/15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/shop/16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/shop/17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/shop/18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/shop/19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/shop/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/shop/20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/shop/21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/shop/22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/shop/23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/shop/24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/shop/25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/shop/26.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/shop/27.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/shop/28.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/shop/29.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/shop/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/shop/30.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/shop/31.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/shop/32.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/shop/33.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/shop/34.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/shop/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/shop/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/shop/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/shop/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/shop/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/shop/9.jpg" afterDir="false" />
+    <list default="true" id="7abba2bd-87e2-49d5-b491-16f65e27a7de" name="Changes" comment="0423">
+      <change afterPath="$PROJECT_DIR$/../.idea/workall.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/java/data/dao/BookingDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/java/data/dao/ExhiDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/java/data/dao/GuestDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/java/data/dao/MemoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/java/data/dao/StudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/java/data/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/java/data/dto/BookingDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/java/data/dto/ExhiDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/java/data/dto/GuestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/java/data/dto/MemoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/java/data/dto/StudentDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/java/data/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/WEB-INF/lib/cos.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/assignment_1/booking.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/assignment_1/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/assignment_1/exhi_scripts.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/assignment_1/faqs.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/assignment_1/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/assignment_1/location.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/assignment_1/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/assignment_1/loginAction.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/assignment_1/logout.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/assignment_1/mypage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/assignment_1/mypageUpdate.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/assignment_1/mypageupdateform.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/assignment_1/signup.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/assignment_1/signupAction.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/assignment_1/ticketing.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/day0430/sawonbuseoanalysis.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/day0430/sawongenderanalysis.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/day0501/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/day0501/detail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/day0501/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/day0501/update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/day0501/updateform.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/day0501/writeaction.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/day0501/writeform.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/day0502/memoaction.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/day0502/memodetail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/day0502/memoform.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/day0502/memolist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/day0507/ajax/ex1_ajax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/day0507/cookie/cookiemain.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/day0507/cookie/gisa1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/day0507/cookie/gisa2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/day0507/cookie/gisa3.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/day0507/cookie/loginaction.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/day0507/cookie/loginform.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/day0507/cookie/logoutaction.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/day0507/cookie/logoutform.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/day0507/cookie/paper.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/day0507/data/data1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/day0507/data/data2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/day0507/data/data3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/day0507/data/data4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/day0507/session/loginaction.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/day0507/session/loginform.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/day0507/session/logoutaction.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/day0507/session/sessionmain.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/day0507/session/successpage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/day0508/data/persondata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/day0508/data/sawondata.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/day0508/data/sawonxmldata.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/day0508/data/shopdelete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/day0508/data/shopjsondata.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/day0508/ex1_dataread.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/day0508/ex2_sawonxmlread.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/day0508/ex3_shopjsonread.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/day0509/data/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/day0509/data/insertdata.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/day0509/data/listdata.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/day0509/data/update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/day0509/data/updateaction.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/day0509/guestajax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/image/exhi/1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/image/exhi/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/image/exhi/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/image/exhi/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/image/exhi/4_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/image/exhi/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/image/exhi/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/image/exhi/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/image/exhi/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/image/exhi/jungYongsun2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/image/exhi/jungYoungsun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/image/noimage1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/image/noimage2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/mainImage/K-034.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/mainImage/K-035.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/mainImage/K-036.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/mainImage/K-037.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/mainImage/K-038.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/mainImage/K-039.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/mainImage/K-040.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/mainImage/K-041.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/mainImage/K-042.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/mainImage/K-043.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/mainImage/K-044.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/mainImage/K-045.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/mainImage/K-046.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/mainImage/K-047.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/mainImage/K-048.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/mainImage/K-049.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/mainImage/K-050.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/mainImage/K-051.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/mainImage/K-052.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/mainImage/K-053.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/mainImage/K-054.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/mainImage/K-055.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/mainImage/K-057.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/mainImage/K-060.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/mainImage/mainImg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/other/data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/other/data.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/shop/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/shop/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/shop/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/shop/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/shop/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/shop/21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/shop/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/shop/23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/shop/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/shop/25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/shop/26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/shop/27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/shop/28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/shop/29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/shop/30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/shop/31.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/shop/32.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/shop/33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/shop/34.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/snoopyAvata/s1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/snoopyAvata/s10.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/snoopyAvata/s2.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/snoopyAvata/s3.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/snoopyAvata/s4.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/snoopyAvata/s5.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/snoopyAvata/s6.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/snoopyAvata/s7.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/snoopyAvata/s8.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/snoopyAvata/s9.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/talent/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/talent/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/talent/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/talent/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/talent/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/Naver0314_JavaProject/Naver0314_JavaProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/StartWebProject/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/StartWebProject/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/StartWebProject/.idea/fileTemplates/internal/HTML File.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/StartWebProject/.idea/fileTemplates/j2ee/Jsp File.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/StartWebProject/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/StartWebProject/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/StartWebProject/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/StartWebProject/src/main/webapp/min.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/javawork/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/javawork/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/javawork/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/javawork/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/javawork/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/javawork/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/javawork/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/javawork/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/javawork/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/javawork/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javawork/javawork/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../workall/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../workall/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../workall/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../workall/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../workall/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../workall/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../workall/workall.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../javawork/.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../javawork/.metadata/.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../javawork/.metadata/.mylyn/.tasks.xml.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../javawork/.metadata/.mylyn/.tasks.xml.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../javawork/.metadata/.mylyn/tasks.xml.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../javawork/.metadata/.mylyn/tasks.xml.zip" afterDir="false" />
@@ -412,7 +498,6 @@
       <change beforePath="$PROJECT_DIR$/../javawork/.metadata/.plugins/org.eclipse.core.resources/.history/f4/e07226b1caec001e193ccbb967b7fc09" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../javawork/.metadata/.plugins/org.eclipse.core.resources/.history/f6/60745346a2ea001e1942af8d35793512" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../javawork/.metadata/.plugins/org.eclipse.core.resources/.history/f6/f0af8e791ceb001e1a35d7cd1eaf041d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javawork/.metadata/.plugins/org.eclipse.core.resources/.history/f7/003f6278faeb001e193ccbb967b7fc09" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../javawork/.metadata/.plugins/org.eclipse.core.resources/.history/f7/5046d639ebeb001e193ccbb967b7fc09" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../javawork/.metadata/.plugins/org.eclipse.core.resources/.history/f7/f05a3376a3ea001e1942af8d35793512" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../javawork/.metadata/.plugins/org.eclipse.core.resources/.history/f8/40583674adec001e193ccbb967b7fc09" beforeDir="false" />
@@ -442,10 +527,36 @@
       <change beforePath="$PROJECT_DIR$/../javawork/.metadata/.plugins/org.eclipse.m2e.logback/0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../javawork/.metadata/.plugins/org.eclipse.m2e.logback/0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../javawork/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../javawork/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../javawork/.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../javawork/.metadata/version.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javawork/JspProject/src/main/java/data/dao/SawonDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/java/data/dao/SawonDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javawork/JspProject/src/main/java/org/example/jspproject/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/java/org/example/jspproject/HelloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/day0430/sawonlist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../javawork/JspProject/src/main/webapp/day0430/sawonlist.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../javawork/Naver0314_JavaProject/src/day0401_prac/ServerChat.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javawork/Naver0314_JavaProject/src/prac/ServerChat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javawork/Naver0314_JavaProject/src/day0408/Ex2_DbSawon.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javawork/Naver0314_JavaProject/src/day0408/Ex2_DbSawon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../javawork/Naver0314_JavaProject/src/de/common/DbConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javawork/Naver0314_JavaProject/src/de/common/DbConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/day0409/hello.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/shop/16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/shop/17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/shop/18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/shop/19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/shop/20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/shop/21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/shop/22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/shop/23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/shop/24.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/shop/25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/shop/26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/shop/27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/shop/28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/shop/29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/shop/30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/shop/31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/shop/32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/shop/33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/shop/34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/talent/16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/talent/17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/talent/18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/talent/19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/talent/20.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -455,6 +566,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -462,12 +574,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "alswl11"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
+    {
+      &quot;searchQuery&quot;: &quot;eslint&quot;,
+      &quot;state&quot;: &quot;OPEN&quot;,
+      &quot;assignee&quot;: &quot;alswl11&quot;
+    }
+  ],
+  &quot;lastFilter&quot;: {
+    &quot;searchQuery&quot;: &quot;eslint&quot;,
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;alswl11&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -476,41 +596,71 @@
       </UrlAndAccount>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2eoKtf1mZHpJxUO3ytCW0rKIgVG" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.ex2_tag.html.executor": "Run",
-    "JavaScript Debug.ex_table.html.executor": "Run",
-    "JavaScript Debug.hello.html.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/parkminji/Documents/naver_0314/workall/webwork",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.ex10_resize.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.ex1_table.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.ex1_tag.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.ex1_tag1.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.ex2_figure.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.ex2_tag.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.ex3_ulmenu.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.ex6_olul.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.ex7_iframe.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.ex8_style.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.ex9_style.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.ex9_transition.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.ex_table.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.hello.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/parkminji/Documents/naver_0314/workall/webwork/day0423&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.customizations&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/day0423" />
+      <recent name="$PROJECT_DIR$/image" />
+      <recent name="$PROJECT_DIR$/day0411" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/day0418_jquery" />
+      <recent name="$PROJECT_DIR$/etc" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/.idea/day0409" />
     </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
+        <option value="jdk-11.0.22-corretto-11.0.22-4caba194b151-396cc1b2" />
         <option value="jdk-17.0.9-jbr-17.0.9-4caba194b151-f5d63804" />
       </set>
     </attachedChunks>
@@ -523,7 +673,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712565706500</updated>
-      <workItem from="1712565707608" duration="2499000" />
+      <workItem from="1712565707608" duration="4523000" />
+      <workItem from="1712637757414" duration="1201000" />
+      <workItem from="1712640502061" duration="26534000" />
+      <workItem from="1712826306055" duration="621000" />
+      <workItem from="1712898915540" duration="2086000" />
+      <workItem from="1712901050865" duration="5115000" />
+      <workItem from="1713141239601" duration="883000" />
+      <workItem from="1713142128637" duration="4988000" />
+      <workItem from="1713147680714" duration="1169000" />
+      <workItem from="1713149644510" duration="4750000" />
+      <workItem from="1713158226879" duration="23218000" />
+      <workItem from="1713314183598" duration="6512000" />
+      <workItem from="1713336927200" duration="19646000" />
+      <workItem from="1713486925723" duration="14222000" />
+      <workItem from="1713508590022" duration="3821000" />
+      <workItem from="1713745979754" duration="596000" />
+      <workItem from="1713746581692" duration="30107000" />
+      <workItem from="1713853840758" duration="1716000" />
+      <workItem from="1713861411024" duration="6400000" />
+      <workItem from="1713919033134" duration="1323000" />
+      <workItem from="1714011122048" duration="603000" />
+      <workItem from="1714015272588" duration="659000" />
+      <workItem from="1714024895905" duration="601000" />
+      <workItem from="1714351267016" duration="135000" />
+      <workItem from="1714351531598" duration="219000" />
+      <workItem from="1714351906865" duration="1260000" />
+      <workItem from="1715303154207" duration="608000" />
     </task>
     <task id="LOCAL-00001" summary="0409">
       <option name="closed" value="true" />
@@ -541,14 +717,277 @@
       <option name="project" value="LOCAL" />
       <updated>1712633850048</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="0409">
+      <option name="closed" value="true" />
+      <created>1712634223297</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712634223297</updated>
+    </task>
+    <task id="LOCAL-00004" summary="0409">
+      <option name="closed" value="true" />
+      <created>1712634387639</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712634387639</updated>
+    </task>
+    <task id="LOCAL-00005" summary="0409">
+      <option name="closed" value="true" />
+      <created>1712635750181</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712635750181</updated>
+    </task>
+    <task id="LOCAL-00006" summary="0409">
+      <option name="closed" value="true" />
+      <created>1712640772570</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712640772570</updated>
+    </task>
+    <task id="LOCAL-00007" summary="0409">
+      <option name="closed" value="true" />
+      <created>1712641263687</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1712641263687</updated>
+    </task>
+    <task id="LOCAL-00008" summary="0409">
+      <option name="closed" value="true" />
+      <created>1712641553396</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1712641553396</updated>
+    </task>
+    <task id="LOCAL-00009" summary="0409">
+      <option name="closed" value="true" />
+      <created>1712647574962</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1712647574962</updated>
+    </task>
+    <task id="LOCAL-00010" summary="0409">
+      <option name="closed" value="true" />
+      <created>1712648940363</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1712648940363</updated>
+    </task>
+    <task id="LOCAL-00011" summary="0411">
+      <option name="closed" value="true" />
+      <created>1712808093560</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1712808093560</updated>
+    </task>
+    <task id="LOCAL-00012" summary="0411">
+      <option name="closed" value="true" />
+      <created>1712808116936</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1712808116936</updated>
+    </task>
+    <task id="LOCAL-00013" summary="0411">
+      <option name="closed" value="true" />
+      <created>1712808136114</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1712808136114</updated>
+    </task>
+    <task id="LOCAL-00014" summary="0411">
+      <option name="closed" value="true" />
+      <created>1712818718466</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1712818718466</updated>
+    </task>
+    <task id="LOCAL-00015" summary="0411">
+      <option name="closed" value="true" />
+      <created>1712822615894</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1712822615894</updated>
+    </task>
+    <task id="LOCAL-00016" summary="0412">
+      <option name="closed" value="true" />
+      <created>1713144148379</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1713144148379</updated>
+    </task>
+    <task id="LOCAL-00017" summary="0415">
+      <option name="closed" value="true" />
+      <created>1713158755969</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1713158755969</updated>
+    </task>
+    <task id="LOCAL-00018" summary="0415">
+      <option name="closed" value="true" />
+      <created>1713169836822</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1713169836822</updated>
+    </task>
+    <task id="LOCAL-00019" summary="0416">
+      <option name="closed" value="true" />
+      <created>1713314259076</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1713314259076</updated>
+    </task>
+    <task id="LOCAL-00020" summary="0416">
+      <option name="closed" value="true" />
+      <created>1713336109982</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1713336109982</updated>
+    </task>
+    <task id="LOCAL-00021" summary="etc">
+      <option name="closed" value="true" />
+      <created>1713336423239</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1713336423239</updated>
+    </task>
+    <task id="LOCAL-00022" summary="0418">
+      <option name="closed" value="true" />
+      <created>1713427729017</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1713427729017</updated>
+    </task>
+    <task id="LOCAL-00023" summary="0417">
+      <option name="closed" value="true" />
+      <created>1713427745148</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1713427745148</updated>
+    </task>
+    <task id="LOCAL-00024" summary="0419">
+      <option name="closed" value="true" />
+      <created>1713513045022</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1713513045022</updated>
+    </task>
+    <task id="LOCAL-00025" summary="0422">
+      <option name="closed" value="true" />
+      <created>1713746624590</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1713746624590</updated>
+    </task>
+    <task id="LOCAL-00026" summary="0422">
+      <option name="closed" value="true" />
+      <created>1713772317609</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1713772317609</updated>
+    </task>
+    <task id="LOCAL-00027" summary="0419">
+      <option name="closed" value="true" />
+      <created>1713772343669</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1713772343669</updated>
+    </task>
+    <task id="LOCAL-00028" summary="music">
+      <option name="closed" value="true" />
+      <created>1713864155947</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1713864155947</updated>
+    </task>
+    <task id="LOCAL-00029" summary="music">
+      <option name="closed" value="true" />
+      <created>1713864247591</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1713864247591</updated>
+    </task>
+    <task id="LOCAL-00030" summary="0423">
+      <option name="closed" value="true" />
+      <created>1713864418124</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1713864418124</updated>
+    </task>
+    <task id="LOCAL-00031" summary="0423">
+      <option name="closed" value="true" />
+      <created>1713864433837</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1713864433837</updated>
+    </task>
+    <task id="LOCAL-00032" summary="0423">
+      <option name="closed" value="true" />
+      <created>1713871474105</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1713871474105</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="0409" />
-    <option name="LAST_COMMIT_MESSAGE" value="0409" />
+    <MESSAGE value="0411" />
+    <MESSAGE value="0412" />
+    <MESSAGE value="0415" />
+    <MESSAGE value="0416" />
+    <MESSAGE value="etc" />
+    <MESSAGE value="0418" />
+    <MESSAGE value="0417" />
+    <MESSAGE value="0422" />
+    <MESSAGE value="0419" />
+    <MESSAGE value="music" />
+    <MESSAGE value="0423" />
+    <option name="LAST_COMMIT_MESSAGE" value="0423" />
   </component>
 </project>

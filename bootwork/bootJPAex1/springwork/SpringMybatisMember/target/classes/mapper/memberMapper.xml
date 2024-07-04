@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="member.dao.MemberDao">
+    <select id="memberTotalCount" resultType="int">select count(*) from memberdb</select>
+    <select id="selectIdCheck" parameterType="String" resultType="int">
+        select count(*) from memberdb where myid = #{searchid}
+    </select>
+    <insert id="insertMember" parameterType="MemberDto">
+        insert into memberdb (name, myid, passwd, addr, hp, email, photo, birthday, gaipday) values (#{name}, #{myid}, #{passwd}, #{addr}, #{hp}, #{email}, #{photo}, #{birthday}, now())
+    </insert>
+    <select id="selectAllMembers" resultType="MemberDto">
+        select * from memberdb order by num
+    </select>
+    <select id="selectByNumData" parameterType="int" resultType="MemberDto">
+        select * from memberdb where num = #{num}
+    </select>
+    <select id="updatePhoto" parameterType="Map">
+        update memberdb set photo = #{photo} where num = #{num}
+    </select>
+    <update id="updateMember" parameterType="MemberDto">
+        update memberdb set name = #{name}, hp = #{hp}, email = #{email}, addr = #{addr}, birthday= #{birthday} where num = #{num}
+    </update>
+    <select id="equalPassCheck" parameterType="Map" resultType="int">
+select  count(*) from memberdb where num=#{num} and passwd = #{passwd}
+    </select>
+    <delete id="deleteMember" parameterType="int">
+        delete from memberdb where num=#{num}
+    </delete>
+</mapper>

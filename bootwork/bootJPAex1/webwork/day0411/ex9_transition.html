@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Black+Han+Sans&family=Bungee+Spice&family=Diphylleia&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nanum+Pen+Script&family=Song+Myung&display=swap"
+          rel="stylesheet">
+    <style>
+        body * {
+            font-family: 'Bagel Fat One';
+        }
+        ul, li {
+            list-style: none;
+        }
+        nav {
+            display: block;
+        }
+        ul {
+            margin-bottom: 30px;
+        }
+
+        /* menu 1*/
+        .menu1 li {
+            background-color: #999;
+            color: #fff;
+            width: 80px;
+            display: block;
+            margin-bottom: 3px;
+            height: 33px;
+            padding: 8px;
+            transition: width 1.5s;
+        }
+
+        /* menu 1 효과*/
+        .menu1 li:hover{
+            color: yellow;
+            letter-spacing: 3px;
+            width: 400px;
+        }
+
+        /* menu 2*/
+        .menu2 {height: 100px;}
+        .menu2 li{
+            float: left;
+            background-color: darksalmon;
+            color: indigo;
+            margin-right: 3px;
+            width: 85px;
+            height: 35px;
+            text-align: center;
+            line-height: 35px;
+            transition:  height 1.2s;
+        }
+
+        /* menu 2 효과*/
+        .menu2 li:hover {
+            background-color: aqua;
+            height: 100px;
+            color: black;
+        }
+
+        .menu3 li {
+            background-color: cadetblue;
+            color: brown;
+            margin-bottom: 3px;
+            display: block;
+            padding: 3px;
+            height: 35px;
+            width: 75px;
+            line-height: 35px;
+            text-align: center;
+        }
+        .menu3 li:hover {
+            transform: rotate(45deg);
+            background-color: #cccccc;
+            color: black;
+        }
+        #main_menu .menu4 li{
+            color: midnightblue;
+            background-color: chartreuse;
+            width: 150px;
+            display: block;
+            text-align: center;
+            padding: 5px;
+            transition: all 0.3s;
+        }
+        #main_menu .menu4 li:hover {
+            color : palevioletred;
+            background-color: lightgrey;
+            background: url("../image/mycar/mycar13.png") no-repeat right center;
+            background-size: 30px 30px;
+        }
+
+
+    </style>
+</head>
+<body>
+<ul class="menu1">
+    <li>MENU 01</li>
+    <li>MENU 02</li>
+    <li>MENU 03</li>
+    <li>MENU 04</li>
+    <li>MENU 05</li>
+</ul>
+<div style="clear : both;"></div>
+<ul class="menu2">
+    <li>MENU 01</li>
+    <li>MENU 02</li>
+    <li>MENU 03</li>
+    <li>MENU 04</li>
+    <li>MENU 05</li>
+</ul>
+<div style="clear : both;"></div>
+<ul class="menu3">
+    <li>MENU 01</li>
+    <li>MENU 02</li>
+    <li>MENU 03</li>
+    <li>MENU 04</li>
+    <li>MENU 05</li>
+</ul>
+<div style="clear : both;"></div>
+<nav id="main_menu">
+    <ul class="menu4">
+        <li>MENU 01</li>
+        <li>MENU 02</li>
+        <li>MENU 03</li>
+        <li>MENU 04</li>
+        <li>MENU 05</li>
+    </ul>
+    <div style="clear : both;"></div>
+</body>
+</html>

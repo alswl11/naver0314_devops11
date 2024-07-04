@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Black+Han+Sans&family=Bungee+Spice&family=Diphylleia&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nanum+Pen+Script&family=Song+Myung&display=swap"
+          rel="stylesheet">
+    <style>
+        div.buttons>button {
+            width: 100px;
+            height: 35px;
+            font-size: 1.05em;
+            font-family: "Bagel Fat One";
+            background-color: bisque;
+            color: midnightblue;
+            box-shadow: 5px 5px 5px gray;
+            cursor: pointer;
+        }
+
+        div.msg {
+            margin-top: 20px;
+            font-size: 30px;
+            text-align: center;
+            width: 400px;
+            height: 100px;
+            line-height: 100px;
+            font-family: "Black Han Sans";
+        }
+
+        div.diva {
+            border: 10px gold groove;
+            background-color: hotpink;
+            color: midnightblue;
+        }
+
+        div.divb {
+            border: 10px double darkgreen;
+            box-shadow: 5px 5px 5px orange;
+            font-family: "Diphylleia";
+            font-size: 30px;
+            background-color: aquamarine;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+<div class="buttons">
+    <button type="button" id="btn1">diva 적용</button>
+    <button type="button" id="btn2">divb 적용</button>
+    <button type="button" id="btn3">divab 적용</button>
+    <button type="button" id="btn4">모두제거</button>
+</div>
+<div class="msg">
+    오늘은 비오는 월요일입니다
+</div>
+<script>
+    let m = document.querySelector("div.msg");
+    document.getElementById("btn1").onclick = function () {
+        m.setAttribute("class", "msg diva");
+    }
+    document.getElementById("btn2").onclick = function () {
+        m.setAttribute("class", "msg divb");
+    }
+    document.getElementById("btn3").onclick = function () {
+        m.setAttribute("class", "msg diva divb");
+    }
+    document.getElementById("btn4").onclick = function () {
+        m.setAttribute("class", "msg");
+    }
+</script>
+</body>
+</html>
