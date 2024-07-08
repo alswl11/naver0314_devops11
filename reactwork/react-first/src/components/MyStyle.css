@@ -1,0 +1,37 @@
+.photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    margin: 10px;
+}
+
+.line1 {
+    border : 5px solid hotpink;
+}
+.line2 {
+    border: 5px double darkblue;
+}
+.line3 {
+    border: 5px dotted orange;
+}
+.msg {
+    width: 400px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-family: 'Dancing Script';
+    font-size: 25px;
+}
+/*.back1 {*/
+/*    background-color: orange;*/
+/*    border: 10px solid gray;*/
+/*}*/
+/*.back2 {*/
+/*    background-color: pink;*/
+/*    color: blue;*/
+/*    box-shadow: 5px 5px 5px gray;*/
+/*}*/
+/*.back3 {*/
+/*    border: 10px groove gold;*/
+/*    border-radius: 30px;*/
+/*}*/
