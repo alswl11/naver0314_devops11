@@ -13,8 +13,13 @@ const ThreeApp = () => {
         <div>
             <h1 className="alert alert-success">ThreeApp - 숫자 증가/감소 이벤트</h1>
             <div style={numberStyle}>{number}</div>
-            <button type="button" className="btn btn-danger btn-sm" style={{marginLeft : '60px'}}>감소</button>
-            <button type="button" className="btn btn-success btn-sm" style={{marginLeft : '10px'}}>증가</button>
+            <button type="button" className="btn btn-danger btn-sm" style={{marginLeft : '60px'}} onClick={() => {
+                setNumber(number-1);
+            }}>감소</button>
+            <button type="button" className="btn btn-success btn-sm" style={{marginLeft : '10px'}} onClick={()=>{
+                // number 변수값 1 증가
+                setNumber(number+1);
+            }}>증가</button>
         </div>
     )
 }
