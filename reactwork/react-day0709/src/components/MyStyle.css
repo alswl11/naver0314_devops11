@@ -1,0 +1,14 @@
+.photo {
+    width: 120px;
+    height: 120px;
+    border : 1px solid gray;
+    margin-right: 10px;
+    box-shadow: 5px 5px 5px gray;
+}
+.smallphoto {
+    width: 60px;
+    height: 60px;
+    border : 1px solid gray;
+    margin-right: 10px;
+    box-shadow: 5px 5px 5px gray;
+}
