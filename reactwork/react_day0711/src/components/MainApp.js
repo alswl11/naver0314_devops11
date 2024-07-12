@@ -37,8 +37,7 @@ const MainApp = () => {
             </div>
             <hr/>
             {
-                idx===1?<OneApp/>:idx===2?<TwoApp/>:
-                    idx===3?<ThreeApp/>:<FourApp/>
+                idx===1?<OneApp/>:idx===2?<TwoApp/>:idx===3?<ThreeApp/>:<FourApp/>
             }
         </div>
     );

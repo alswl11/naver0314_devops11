@@ -71,16 +71,6 @@ const OneApp = () => {
                         <Button variant="contained" color="success" size="small" onClick={initDataEvent}>입력값 초기화</Button>
                     </td>
                 </tr>
-                {/*<tr>*/}
-                {/*    <td colSpan={2} align="center">*/}
-                {/*        <h4>*/}
-                {/*            상품명 : {inputs.sname}<br/>*/}
-                {/*            색상 : {inputs.scolor}<br/>*/}
-                {/*            가격 : {inputs.sprice}<br/>*/}
-                {/*            사진 : {inputs.sphoto}*/}
-                {/*        </h4>*/}
-                {/*    </td>*/}
-                {/*</tr>*/}
                 </tbody>
             </table>
             <h4>총 {inputArray.length}개의 배열 데이터가 있습니다.</h4>
