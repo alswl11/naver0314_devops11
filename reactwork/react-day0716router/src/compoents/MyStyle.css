@@ -1,0 +1,25 @@
+ul.menu {
+    list-style: none;
+}
+ul.menu li{
+    float: left;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    cursor: pointer;
+    background-color: beige;
+    margin-right: 10px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    border : 1px solid palevioletred;
+    margin-bottom: 20px;
+
+}
+ul.menu li:hover{
+    box-shadow: 5px 5px 5px gray;
+}
+ul.menu a{
+    text-decoration: none;
+    color: blue;
+}
