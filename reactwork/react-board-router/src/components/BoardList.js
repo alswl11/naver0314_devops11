@@ -3,7 +3,7 @@ import {Alert} from "@mui/material";
 import '../components/MyStyle.css';
 import axios from "axios";
 import {NavLink} from "react-router-dom";
-import no from '../image/no.png';
+import noimage from '../image/no.png';
 
 const BoardList = () => {
     const [boardList, setBoardList] = useState([]);
@@ -41,7 +41,7 @@ const BoardList = () => {
                             <td>
                                 <NavLink to={`/board/detail/${row.boardnum}`}
                                          style={{textDecoration: "none", color: "black"}}>
-                                    <img alt="" src={`${row.photo}`==='no'?`${no}`:`${storage}/${row.photo}`}
+                                    <img alt="" src={row.photo==='no'?noimage:`${storage}/${row.photo}`}
                                          style={{width: "40px", height: "40px", marginRight: "5px"}}/>
                                     {row.subject}
                                 </NavLink>
