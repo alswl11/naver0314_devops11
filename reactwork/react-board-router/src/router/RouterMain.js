@@ -6,6 +6,8 @@ import BoardForm from "../components/BoardForm";
 import BoardList from "../components/BoardList";
 import BoardDetail from "../components/BoardDetail";
 import '../components/MyStyle.css';
+import UpdatePassForm from "../components/UpdatePassForm";
+import UpdateForm from "../components/UpdateForm";
 
 
 const RouterMain = () => {
@@ -19,6 +21,8 @@ const RouterMain = () => {
                     <Route path='form' element={<BoardForm/>}/>
                     <Route path='list' element={<BoardList/>}/>
                     <Route path='detail/:boardnum' element={<BoardDetail/>}/>
+                    <Route path='updatepass/:boardnum' element={<UpdatePassForm/>}/>
+                    <Route path='updateform/:boardnum' element={<UpdateForm/>}/>
                 </Route>
             </Routes>
         </div>

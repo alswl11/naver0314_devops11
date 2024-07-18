@@ -48,7 +48,7 @@ const BoardList = () => {
                             </td>
                             <td align="center">{row.writer}</td>
                             <td align="center"><span style={{fontSize: "14px"}}>{row.writeday.substring(0, 10)}</span></td>
-                            <td align="center">{row.readcount}</td>
+                    <td align="center">{row.readcount}</td>
 
                         </tr>
                     )
