@@ -8,6 +8,8 @@ import BoardDetail from "../components/BoardDetail";
 import '../components/MyStyle.css';
 import UpdatePassForm from "../components/UpdatePassForm";
 import UpdateForm from "../components/UpdateForm";
+import DaumPostApp from "../components/DaumPostApp";
+import SweetAlertApp from "../components/SweetAlertApp";
 
 
 const RouterMain = () => {
@@ -24,6 +26,8 @@ const RouterMain = () => {
                     <Route path='updatepass/:boardnum' element={<UpdatePassForm/>}/>
                     <Route path='updateform/:boardnum' element={<UpdateForm/>}/>
                 </Route>
+                <Route path="/post" element={<DaumPostApp/>}></Route>
+                <Route path="/sweet" element={<SweetAlertApp/>}></Route>
             </Routes>
         </div>
     );
