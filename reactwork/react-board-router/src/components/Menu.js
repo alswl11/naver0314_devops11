@@ -20,6 +20,12 @@ const Menu = () => {
             <li>
                 <NavLink to={'/sweet'}>SweetAlert</NavLink>
             </li>
+            <li>
+                <NavLink to={'/reducercomp1'}>ReducerComp1</NavLink>
+            </li>
+            <li>
+                <NavLink to={'/reducercomp2'}>ReducerComp2</NavLink>
+            </li>
         </ul>
     );
 };
