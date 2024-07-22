@@ -12,6 +12,8 @@ import DaumPostApp from "../components/DaumPostApp";
 import SweetAlertApp from "../components/SweetAlertApp";
 import ReducerComp1 from "../components/ReducerComp1";
 import ReducerComp2 from "../components/ReducerComp2";
+import MemoTest from "../components2/MemoTest";
+import CallBackTest from "../components2/CallBackTest";
 
 
 const RouterMain = () => {
@@ -32,6 +34,8 @@ const RouterMain = () => {
                 <Route path="/sweet" element={<SweetAlertApp/>}></Route>
                 <Route path="/reducercomp1" element={<ReducerComp1/>}></Route>
                 <Route path="/reducercomp2" element={<ReducerComp2/>}></Route>
+                <Route path="/memo" element={<MemoTest/>}></Route>
+                <Route path="/callback" element={<CallBackTest/>}></Route>
             </Routes>
         </div>
     );

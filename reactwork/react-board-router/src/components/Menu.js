@@ -26,6 +26,12 @@ const Menu = () => {
             <li>
                 <NavLink to={'/reducercomp2'}>ReducerComp2</NavLink>
             </li>
+            <li>
+                <NavLink to={'/memo'}>useMemo</NavLink>
+            </li>
+            <li>
+                <NavLink to={'/callback'}>useCallback</NavLink>
+            </li>
         </ul>
     );
 };
