@@ -14,6 +14,9 @@ import ReducerComp1 from "../components/ReducerComp1";
 import ReducerComp2 from "../components/ReducerComp2";
 import MemoTest from "../components2/MemoTest";
 import CallBackTest from "../components2/CallBackTest";
+import MemberList from "../member/MemberList";
+import MemberForm from "../member/MemberForm";
+import LoginForm from "../member/LoginForm";
 
 
 const RouterMain = () => {
@@ -36,6 +39,9 @@ const RouterMain = () => {
                 <Route path="/reducercomp2" element={<ReducerComp2/>}></Route>
                 <Route path="/memo" element={<MemoTest/>}></Route>
                 <Route path="/callback" element={<CallBackTest/>}></Route>
+                <Route path="/member/list" element={<MemberList/>}></Route>
+                <Route path="/member/form" element={<MemberForm/>}></Route>
+                <Route path="/login" element={<LoginForm/>}></Route>
             </Routes>
         </div>
     );
